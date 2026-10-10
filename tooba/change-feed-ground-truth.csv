@@ -1,0 +1,4 @@
+change_id,timestamp_utc,persona,change_type,platform,description,expected_effect
+CHG-001,2026-10-10T03:36:26.468134+00:00,bob@horquva-test.local,synthetic_departure,mock,Simulated departure of a synthetic test persona,Test workflow should detect the persona status change
+CHG-002,2026-10-10T03:36:26.468189+00:00,alice@horquva-test.local,model_swap,mock,Simulated AI model configuration change,Test workflow should record the model configuration change
+CHG-003,2026-10-10T03:36:26.468208+00:00,carol@horquva-test.local,credential_removal,mock,Simulated removal of a mock credential reference,Test workflow should identify the missing mock credential
