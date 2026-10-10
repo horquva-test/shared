@@ -1,4 +1,3 @@
-Team-managed Jira does not support components; modelled via labels
 project,lead,backup_lead,issues,components
 ENG,Affan Ahmed Khan,Muhammad Ibrahim Shaikh,7,"component:api; component:backend"
 OPS,Natasha Khan,,7,"component:integration; component:evaluation; component:security"
