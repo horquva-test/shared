@@ -1,1 +1,10 @@
 
+repo,owner,teams,collaborators
+workflow-automation,Affan Ahmed Khan,engineering,ahmedabubakr-horquva;ali-naeem-horquva;sohaibadnanhorquva-maker;sumavia-horquva (pending)
+data-pipeline,Ahmed Abubakr,engineering,ahmedabubakr-horquva;ali-naeem-horquva;sohaibadnanhorquva-maker;sumavia-horquva (pending)
+ai-models,Muhammad Ibrahim Shaikh,engineering,ahmedabubakr-horquva;ali-naeem-horquva;sohaibadnanhorquva-maker;sumavia-horquva (pending)
+ops-runbooks,Muhammad Bilal Askari,infra,ali-naeem-horquva
+finance-scripts,Kia Vang,finance,ali-naeem-horquva
+security-tools,Areeb Ahmad,security,ali-naeem-horquva
+internal-docs,Imaan Siddiqui,ops,ali-naeem-horquva;tooba-horquva;Hanain-Iftikhar-Horquva
+marketing-site,Usman Azhar,,
