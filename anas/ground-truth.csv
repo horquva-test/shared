@@ -1,0 +1,10 @@
+
+channel,admins,members,purpose
+#general,"Natasha Khan; Kia Vang",2,General team announcements and cross-team updates
+#engineering,"Affan Ahmed Khan",2,Engineering work and technical updates
+#ops-alerts,"Natasha Khan ONLY",2,Critical operational alerts and service disruptions
+#finance,"Kia Vang",2,Finance updates and documentation
+#hr,"Imaan Siddiqui",2,HR updates and employee onboarding
+#incidents,"Taha Nadeem",2,Incident reporting and resolution follow-ups
+#on-call,"Muhammad Bilal Askari",2,On-call handovers and outstanding alerts
+#leadership,"Natasha Khan",2,Leadership updates and decisions
