@@ -75,8 +75,8 @@
 
 ## Follow-up Actions
 
-1. Add automated assertions for the five scenario records.
-2. Test expected detection and recovery behavior using local mocks.
-3. Record actual outputs and test results before marking any scenario PASS or FAIL.
-4. Give Affan a mock-only failure-injection guide with commands and expected outcomes.
+1. **Completed:** Added local mock detection assertions for the five failure scenarios.
+2. **Completed:** Ran the mock failure simulation; all five local mock checks passed (5/5), with zero failed checks.
+3. **Pending validation:** Actual platform-level detection, notifications, and recovery behavior have not been independently tested.
+4. **Pending:** Provide Affan with the mock-only failure-injection guide and commands for review.
 5. Keep credentials, tokens, and secrets out of source control.
