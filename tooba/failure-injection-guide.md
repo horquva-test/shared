@@ -68,7 +68,9 @@ python .\tooba\scripts\simulate-changes.py
 python .\tooba\scripts\simulate-failures.py
 ```
 
-**Expected MVP result:** five scenario records are printed.
+**Expected MVP result:** five mock failure scenarios are checked. The latest verified local run reported five mock checks passed (5/5), zero failed checks, and confirmed that no live services were contacted or changed.
+
+**Pass criterion:** all five local mock checks pass. This confirms the mock assertions only; it does not prove real platform detection or recovery.
 
 | ID | Scenario | Expected detection to validate |
 |---|---|---|
@@ -93,17 +95,18 @@ For each run, record:
 - Relevant console output or sanitized screenshot
 - Follow-up action
 
+For the current local run, record the verified result as 5/5 mock checks passed only if the console output confirms it. Live platform detection, notification delivery, and recovery remain pending validation until independently tested in an authorized test environment.
 Do not include secrets or personal access tokens in evidence.
 
 ## 7. Acceptance Criteria
 
 The mock exercise is complete when:
 
-1. The existing change-simulation tests pass.
-2. The change feed contains the expected synthetic records.
-3. All five failure scenarios are generated.
+1. The existing change-simulation tests pass (latest verified result: 7/7).
+2. The change feed contains 20 synthetic records, verified using a read-only count.
+3. All five mock failure checks pass (latest verified result: 5/5).
 4. Outputs and limitations are documented.
-5. Any untested detection or recovery behavior remains marked pending validation.
+5. Any untested platform-level detection or recovery behavior remains marked pending validation.
 6. No live platform or production resource is changed.
 
 ## 8. Troubleshooting
