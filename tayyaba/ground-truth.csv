@@ -1,7 +1,0 @@
-project,lead,backup_lead,issues,components
-ENG,Affan Ahmed Khan,Muhammad Ibrahim Shaikh,7,"component:api; component:backend"
-OPS,Natasha Khan,,7,"component:integration; component:evaluation; component:security"
-FIN,Kia Vang,Usman Azhar,7,"component:backend; component:evaluation"
-HR,Imaan Siddiqui,Mahnoor Altaf,7,"component:frontend; component:integration; component:evaluation; component:security"
-INFRA,Muhammad Bilal Askari,Saira Adil,6,"component:backend; component:evaluation; component:integration"
-SEC,Areeb Ahmad,Syed Mohammad Abdur Rehman,6,component:security
