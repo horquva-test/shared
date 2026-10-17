@@ -1,16 +1,16 @@
-test_id,description,pass_criteria,result,evidence
-T01,Ground truth vs live,At least 95% match,,
-T02,Core loop Discover,At least 1 non-obvious SPOF,,
-T03,Core loop Confirm,Unknown vs absent distinguished,,
-T04,Core loop Watch,Departure detected,,
-T05,Core loop Hand Over,Assets reassigned,,
-T06,Core loop Verify,Zero SPOFs,,
-T07,Identity resolution,100% match,,
-T08,Agent,Zero hallucinations,,
-T09,PDF,Every asset has a citation,,
-T10,Permission boundary,Limited visibility enforced,,
-T11,Real workflow output,Real output produced,,
-T12,Real failure detection,Alert within 15 minutes,,
-T13,On-call response,Acknowledged within 30 minutes,,
-T14,Incident resolution,Fixed within 4 hours,,
-T15,Incident documentation,Report committed,,
+﻿"test_id","description","pass_criteria","result","evidence"
+"T01","Ground truth vs live","At least 95% match","PARTIAL","Local roster comparison matched 30/30 fixture members; comparison against the live source remains pending."
+"T02","Core loop Discover","At least 1 non-obvious SPOF","PARTIAL","Local fixture identified Slack shared by wf-001 (active) and wf-003 (inactive); potential SPOF only, live failure impact not verified."
+"T03","Core loop Confirm","Unknown vs absent distinguished","BLOCKED","Resolver test confirms missing email returns unmatched/no-valid-email and unlisted email returns unmatched/no-match; separate Unknown vs confirmed Absent statuses are not implemented."
+"T04","Core loop Watch","Departure detected","BLOCKED","Repository search found no departure/offboarding detection implementation or test references in the searched source, tests, and documentation. Live departure detection remains unverified."
+"T05","Core loop Hand Over","Assets reassigned","BLOCKED","Repository search found no asset reassignment or ownership-change references in the searched source, tests, fixtures, and documentation. Actual reassignment and before/after ownership remain unverified."
+"T06","Core loop Verify","Zero SPOFs","PARTIAL","n8n.test.ts passed in mock mode: 3 entities, 4 dependencies, health=true. Live critical-dependency coverage and zero unresolved SPOFs are not verified."
+"T07","Identity resolution","100% match","PARTIAL","Existing resolver tests pass for 5 sample accounts, but 3 enter the review queue. Fixture contains 30 roster members and 5 aliases; a complete source-account dataset and 100% identity-resolution evidence are not available."
+"T08","Agent","Zero hallucinations","BLOCKED","Repository search found no AI evaluation dataset, expected-answer checks, ground-truth evaluation, or hallucination/faithfulness test references. Zero hallucinations remain unverified."
+"T09","PDF","Every asset has a citation","BLOCKED","Repository file search found no PDF artifacts or identifiable asset/citation verification implementation or tests. Actual PDF contents, asset references, and citations remain unverified."
+"T10","Permission boundary","Limited visibility enforced","PARTIAL","Repository search found no permission/authorization verification tests; only an OAuth package reference in package-lock.json. Previously collected repo-access evidence is limited; full required permissions and access boundaries remain unverified."
+"T11","Real workflow output","Real output produced","BLOCKED","Mock n8n inventory test passed, but the live test requires N8N_API_KEY, which is unavailable. Live workflow output remains unverified."
+"T12","Real failure detection","Alert within 15 minutes","PARTIAL","Mock failure simulation passed 5/5 checks; 0 failed. Script confirmed mock-only mode with no live services contacted or changed. Actual alert delivery and acknowledgement within 30 minutes remain unverified."
+"T13","On-call response","Acknowledged within 30 minutes","BLOCKED","On-call handover messages were found, but paired alert-sent and acknowledgement timestamps proving response within 30 minutes were not identified."
+"T14","Incident resolution","Fixed within 4 hours","BLOCKED","Repository search found no incident creation/resolution timestamps or incident records proving resolution within 4 hours. Actual incident-resolution time remains unverified."
+"T15","Incident documentation","Report committed","BLOCKED","GitHub origin/main contains failure-log.md, case-study.md, and failure-injection-guide.md documenting mock scenarios. A dedicated incident report meeting the 'Report committed' criterion was not identified; criterion remains unverified."
