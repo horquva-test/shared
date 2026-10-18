@@ -8,7 +8,7 @@ This case study documents a mock-first approach for evaluating common operationa
 
 All scenarios in this case study are synthetic. They cover credential unavailability, a changed source URL, a missing notification channel, an unavailable AI model provider, and a rate-limit response.
 
-No live credentials were disabled, no real Slack channels were deleted, and no production services were modified. The current failure simulation script generates scenario descriptions; it does not independently trigger or verify real failures.
+No live credentials were disabled, no real Slack channels were deleted, and no production services were modified. The current failure simulation script generates scenario descriptions and checks mock state; it does not independently trigger or verify real failures.
 
 ## 3. Scenarios and Expected Responses
 
@@ -54,11 +54,18 @@ No live credentials were disabled, no real Slack channels were deleted, and no p
 
 ## 4. Current Test Evidence
 
-The change-simulation unit test suite previously completed with seven passing tests. The ground-truth CSV contained 20 synthetic records across four change types, with all records marked as mock data.
+The latest local validation was performed on 18 October 2026.
 
-The failure-simulation script generated five mock scenario records. This confirms scenario generation only; it does not prove that live integrations, failure detection, recovery, retries, or alert delivery work correctly.
+- **Change-simulation tests:** 7/7 automated tests passed.
+- **Synthetic change feed:** 20 records generated across four change types.
+- **Failure simulation:** 5/5 mock checks passed, with zero failed checks.
+- **Execution mode:** `mock_only`.
+- **Live services contacted:** No, according to the failure-simulation report.
+- **Live services changed:** No, according to the failure-simulation report.
 
-The latest results should be rechecked before final submission.
+These results confirm that the existing local tests and mock assertions passed. They do not establish that live integrations, platform-level failure detection, alert delivery, fallback behavior, retries, or recovery have been tested successfully.
+
+**Outstanding validation:** End-to-end behavior must remain pending until independently tested in an authorized environment. The watchdog's readiness and any live testing authorization must be confirmed by the responsible owner.
 
 ## 5. Key Findings
 
