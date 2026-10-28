@@ -1,0 +1,28 @@
+
+[
+  {
+    "asset_id": "ASSET-001",
+    "owner_name": "Natasha Khan",
+    "owner_email": "natasha.khan@example.test"
+  },
+  {
+    "asset_id": "ASSET-002",
+    "owner_name": "Kia Vang",
+    "owner_email": "kia.vang@example.test"
+  },
+  {
+    "asset_id": "ASSET-003",
+    "owner_name": "Imaan Siddiqui",
+    "owner_email": "imaan.siddiqui@example.test"
+  },
+  {
+    "asset_id": "ASSET-004",
+    "owner_name": "Affan Ahmed Khan",
+    "owner_email": "affan.ahmed.khan@example.test"
+  },
+  {
+    "asset_id": "ASSET-005",
+    "owner_name": "Muhammad Ibrahim Shaikh",
+    "owner_email": "muhammad.ibrahim.shaikh@example.test"
+  }
+]
