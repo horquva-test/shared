@@ -1,0 +1,289 @@
+{
+  "source": "MOCK",
+  "users": [
+    {
+      "id": "user-001",
+      "displayName": "Test User 001",
+      "mail": "testuser001@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-002",
+      "displayName": "Test User 002",
+      "mail": "testuser002@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-003",
+      "displayName": "Test User 003",
+      "mail": "testuser003@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-004",
+      "displayName": "Test User 004",
+      "mail": "testuser004@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-005",
+      "displayName": "Test User 005",
+      "mail": "testuser005@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-006",
+      "displayName": "Test User 006",
+      "mail": "testuser006@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-007",
+      "displayName": "Test User 007",
+      "mail": "testuser007@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-008",
+      "displayName": "Test User 008",
+      "mail": "testuser008@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-009",
+      "displayName": "Test User 009",
+      "mail": "testuser009@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-010",
+      "displayName": "Test User 010",
+      "mail": "testuser010@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-011",
+      "displayName": "Test User 011",
+      "mail": "testuser011@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-012",
+      "displayName": "Test User 012",
+      "mail": "testuser012@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-013",
+      "displayName": "Test User 013",
+      "mail": "testuser013@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-014",
+      "displayName": "Test User 014",
+      "mail": "testuser014@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-015",
+      "displayName": "Test User 015",
+      "mail": "testuser015@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-016",
+      "displayName": "Test User 016",
+      "mail": "testuser016@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-017",
+      "displayName": "Test User 017",
+      "mail": "testuser017@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-018",
+      "displayName": "Test User 018",
+      "mail": "testuser018@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-019",
+      "displayName": "Test User 019",
+      "mail": "testuser019@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-020",
+      "displayName": "Test User 020",
+      "mail": "testuser020@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-021",
+      "displayName": "Test User 021",
+      "mail": "testuser021@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-022",
+      "displayName": "Test User 022",
+      "mail": "testuser022@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-023",
+      "displayName": "Test User 023",
+      "mail": "testuser023@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-024",
+      "displayName": "Test User 024",
+      "mail": "testuser024@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-025",
+      "displayName": "Test User 025",
+      "mail": "testuser025@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-026",
+      "displayName": "Test User 026",
+      "mail": "testuser026@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-027",
+      "displayName": "Test User 027",
+      "mail": "testuser027@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-028",
+      "displayName": "Test User 028",
+      "mail": "testuser028@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-029",
+      "displayName": "Test User 029",
+      "mail": "testuser029@horquva-test.local",
+      "accountEnabled": true
+    },
+    {
+      "id": "user-030",
+      "displayName": "Test User 030",
+      "mail": "testuser030@horquva-test.local",
+      "accountEnabled": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-01",
+      "displayName": "Test Group 01",
+      "members": [
+        "user-001",
+        "user-007",
+        "user-013",
+        "user-019",
+        "user-025"
+      ]
+    },
+    {
+      "id": "group-02",
+      "displayName": "Test Group 02",
+      "members": [
+        "user-002",
+        "user-008",
+        "user-014",
+        "user-020",
+        "user-026"
+      ]
+    },
+    {
+      "id": "group-03",
+      "displayName": "Test Group 03",
+      "members": [
+        "user-003",
+        "user-009",
+        "user-015",
+        "user-021",
+        "user-027"
+      ]
+    },
+    {
+      "id": "group-04",
+      "displayName": "Test Group 04",
+      "members": [
+        "user-004",
+        "user-010",
+        "user-016",
+        "user-022",
+        "user-028"
+      ]
+    },
+    {
+      "id": "group-05",
+      "displayName": "Test Group 05",
+      "members": [
+        "user-005",
+        "user-011",
+        "user-017",
+        "user-023",
+        "user-029"
+      ]
+    },
+    {
+      "id": "group-06",
+      "displayName": "Test Group 06",
+      "members": [
+        "user-006",
+        "user-012",
+        "user-018",
+        "user-024",
+        "user-030"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "id": "app-01",
+      "displayName": "Test App 01"
+    },
+    {
+      "id": "app-02",
+      "displayName": "Test App 02"
+    },
+    {
+      "id": "app-03",
+      "displayName": "Test App 03"
+    },
+    {
+      "id": "app-04",
+      "displayName": "Test App 04"
+    },
+    {
+      "id": "app-05",
+      "displayName": "Test App 05"
+    }
+  ],
+  "aliases": [
+    {
+      "userId": "user-001",
+      "alias": "testalias1@horquva-test.local"
+    },
+    {
+      "userId": "user-002",
+      "alias": "testalias2@horquva-test.local"
+    },
+    {
+      "userId": "user-003",
+      "alias": "testalias3@horquva-test.local"
+    }
+  ]
+}
